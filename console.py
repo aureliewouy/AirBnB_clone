@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """
 HBNBCommand class that contains the entry point of the command interpreter
 """
@@ -140,7 +140,7 @@ class HBNBCommand(cmd.Cmd):
         elif len(args) < 2:
             print("** instance id missing **")
         elif len(args) < 3:
-            print("** attribute name missing ")
+            print("** attribute name missing **")
         elif len(args) < 4:
             print("** value missing **")
         else:
